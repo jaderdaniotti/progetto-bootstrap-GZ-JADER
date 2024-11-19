@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-danger-subtle">
+        <div class="container-fluid justify-content-center">
+            <img src="https://www.giallozafferano.it/style/images/logo-giallozafferano-small.svg" alt="logo-nav" height="40vh" width="40vh" class="logoGZ">
+          <a class="navbar-brand" href="#" id="ricette">Le mie ricette</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nuove ricette</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  I nostri piatti
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Antipasti</a></li>
+                  <li><a class="dropdown-item" href="#">Primi piatti</a></li>
+                  <li><a class="dropdown-item" href="#">Secondi piatti</a></li>
+                  <li><a class="dropdown-item" href="#">Dolci</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Nuovi piatti</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cerca il tuo piatto!" aria-label="Search" >
+              <button class="btn btn-outline-success" type="submit">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="card-group">
+            <!-- CARD COTOLETTA -->
+            <div class="card">
+                <div id="carouselExampleIndicators1" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/6419718/pexels-photo-6419718.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100" alt="..." height="450vh">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100" alt="..." height="450vh">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/19396433/pexels-photo-19396433/free-photo-of-cena-delizioso-natura-morta-fotografia-di-cibo.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100 " alt="..." height="450vh">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              <div class="card-body">
+                
+                <h2 class="card-title">Ricetta Cotoletta alla milanese</h2>
+                <p class="card-text">
+                    Ecco la ricetta tradizionale per preparare una **cotoletta alla milanese** perfetta!
+
+                    <h3>Ingredienti (per 4 persone):</h3>
+                    <ul>
+                        <li>4 costole di vitello con osso (spessore circa 1-1,5 cm)</li>
+                        <li>2 uova</li>
+                        <li>200 g di pangrattato</li>
+                        <li>100 g di burro chiarificato (o burro tradizionale)</li>
+                        <li>Sale q.b.</li>
+                        <li>1 limone (facoltativo, per servire)</li>
+                    </ul>
+                    <h3>Procedimento:</h3>
+                    <ol>
+                        <li>Preparazione della carne:
+                            <ul>
+                                <li>Elimina eventuali residui di grasso dalle costole di vitello, lasciando l'osso intatto.</li>
+                                <li>Appiattisci leggermente la carne con un batticarne, facendo attenzione a non rovinare la fibra.</li>
+                            </ul>
+                        </li>
+                        <li>Preparazione della panatura:
+                            <ul>
+                                <li>In una ciotola, sbatti le uova con un pizzico di sale.</li>
+                                <li>Passa ogni fetta di carne prima nell’uovo sbattuto e poi nel pangrattato, premendo bene affinché la panatura aderisca uniformemente. Non usare farina: la panatura classica milanese è solo uova e pangrattato.</li>
+                            </ul>
+                        </li>
+                        <li>Cottura:
+                            <ul>
+                                <li>Sciogli il burro chiarificato in una padella grande a fuoco medio. Deve essere abbondante per permettere alla cotoletta di "galleggiare" leggermente durante la cottura.</li>
+                                <li>Quando il burro è caldo ma non fumante, adagia le cotolette e cuocile per circa 4-5 minuti per lato, fino a doratura uniforme.</li>
+                            </ul>
+                        </li>
+                        <li>Sgocciolatura e servizio:
+                            <ul>
+                                <li>Rimuovi le cotolette dalla padella e lasciale sgocciolare su carta assorbente per eliminare il grasso in eccesso.</li>
+                                <li>Aggiungi un pizzico di sale e servi subito, accompagnando con una fettina di limone (se gradita).</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    Consigli:
+                    <ul>
+                        <li>La vera cotoletta alla milanese si prepara con la costoletta di vitello. Per una variante più economica, puoi usare carne di maiale, ma non sarà la ricetta tradizionale.</li>
+                        <li>Il burro chiarificato è fondamentale per evitare che bruci durante la cottura. Puoi farlo in casa sciogliendo il burro a bagnomaria e rimuovendo la parte schiumosa superficiale.</li>
+                    </ul>
+                    Buon appetito! 🥩
+                </p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <!-- CARD OSSOBUCO -->
+            <div class="card">
+                <div id="carouselExampleIndicators2" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://media.gettyimages.com/id/184942647/it/foto/codoli-di-vitello-crudo.jpg?s=612x612&w=0&k=20&c=guJWw3mAO0sb3-pwzovo3o2BAYHff_idAMfvS75dPwE=" class="d-block w-100" alt="..." height="450vh">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://media.gettyimages.com/id/1320972922/it/foto/braised-veal-shank-dish-osso-buco-and-gremolata-green-sauce.jpg?s=612x612&w=0&k=20&c=AaHPCgrGr9BNzGtelDSXZ60PEjRapTYMxmU05nyJAsc=" class="d-block w-100" alt="..." height="450vh">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://media.gettyimages.com/id/639554193/it/foto/high-angle-view-of-ossobuco-with-side-dish-of-vegetables-in-shallow-bowl.jpg?s=612x612&w=0&k=20&c=kHoPjL60zFZ-uauJUIx5qzV6vJIEFSCKL74UbcX9Lp0=" class="d-block w-100 " alt="..." height="450vh">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              <div class="card-body">
+                <h2 class="card-title">Ossobuco alla milanese</h2>
+                <p class="card-text"><p>Ecco la ricetta tradizionale dell'ossobuco alla milanese, un piatto tipico della cucina lombarda, ricco di sapore e tradizione. È spesso accompagnato con un delizioso risotto allo zafferano. 🍴
+                    <h3>Ingredienti (per 4 persone):</h3>
+                    <ul>
+                        <li>4 ossibuchi di vitello (circa 300-350 g ciascuno)</li>
+                        <li>50 g di burro</li>
+                        <li>2 cucchiai di olio extravergine di oliva</li>
+                        <li>1 cipolla tritata finemente</li>
+                        <li>1 carota tritata</li>
+                        <li>1 gambo di sedano tritato</li>
+                        <li>100 ml di vino bianco secco</li>
+                        <li>2 cucchiai di passata di pomodoro (facoltativa, per una variante più "rossa")</li>
+                        <li>Farina q.b.</li>
+                        <li>Sale e pepe q.b.</li>
+                        
+                    </ul>
+                    <h3>Procedimento:</h3>
+                    <ol>
+                        <li> Preparare gli ossibuchi:
+                            <ul>
+                                <li>Incidi la pelle intorno agli ossibuchi per evitare che si arriccino durante la cottura.</li>
+                                <li>Infarina leggermente entrambi i lati degli ossibuchi, scuotendo l’eccesso.</li>
+                            </ul>
+                        <li>Rosolare la carne:
+                            <ul>
+                                <li>In una casseruola ampia, scalda il burro con l'olio.</li>
+                                <li>Aggiungi gli ossibuchi e rosolali a fuoco medio-alto su entrambi i lati fino a doratura. Rimuovi e metti da parte.</li>
+                            </ul>
+                           <li>
+                        <li>Preparare il soffritto:
+                            <ul>
+                                <li>Nella stessa casseruola, aggiungi cipolla, carota e sedano tritati. Cuoci a fuoco basso fino a quando le verdure diventano morbide e traslucide.</li>
+                            </ul>
+                        </li>
+                        <li>Deglassare e insaporire:
+                            <ul>
+                                <li>Rimetti gli ossibuchi nella casseruola. Sfuma con il vino bianco e lascia evaporare l'alcol.</li>
+                            </ul>
+                        </li>
+                        <li>Cottura lenta:
+                            <ul>
+                                <li>Aggiungi il brodo caldo fino a coprire a metà la carne. Se desideri, unisci la passata di pomodoro.</li>
+                                <li>Copri con un coperchio e lascia cuocere a fuoco basso per circa 1 ora e mezza - 2 ore, girando gli ossibuchi ogni tanto. Aggiungi altro brodo se necessario.</li>
+                                <li>Gli ossibuchi saranno pronti quando la carne sarà tenera e si staccherà facilmente dall'osso.</li>
+                            </ul>
+                        </li>
+                        <li>Preparare la gremolada:
+                            <ul>
+                                <li>Mescola prezzemolo tritato, scorza di limone grattugiata e, se piace, l'aglio tritato finemente.</li>
+                            </ul>
+                        </li>
+                        <li>Servire:
+                            <ul>
+                                <li>Spolverizza la gremolada sugli ossibuchi poco prima di servirli.</li>
+                                <li>Accompagna il piatto con risotto allo zafferano o polenta.</li>
+                            </ul>
+                        </li>
+
+                       
+                    </ol>
+                   
+                    
+                    <h3>Consigli:</h3>
+                    <ul>
+                        <li>La vera cotoletta alla milanese si prepara con la costoletta di vitello. Per una variante più economica, puoi usare carne di maiale, ma non sarà la ricetta tradizionale.</li>
+                        <li>Il burro chiarificato è fondamentale per evitare che bruci durante la cottura. Puoi farlo in casa sciogliendo il burro a bagnomaria e rimuovendo la parte schiumosa superficiale.</li>
+                    </ul>                        
+                    Buon appetito! 🥩</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <!-- CARD RISOTTO -->
+            <div class="card">
+                <div id="carouselExampleIndicators3" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/28442559/pexels-photo-28442559/free-photo-of-risotto-gourmet-con-funghi-su-piatto-elegante.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100" alt="..." height="450vh">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/5175542/pexels-photo-5175542.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100" alt="..." height="450vh">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/6216844/pexels-photo-6216844.jpeg?auto=compress&cs=tinysrgb&w=800" class="d-block w-100 " alt="..." height="450vh">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              <div class="card-body">
+                <h2 class="card-title">Risotto alla milanese</h2>
+                <p class="card-text">Ecco la ricetta tradizionale del risotto alla milanese, un piatto simbolo della cucina lombarda, caratterizzato dal suo colore dorato grazie allo zafferano. 🍴
+                    <h3>Ingredienti (per 4 persone):</h3>
+                    <ul>
+                        <li>320 g di riso Carnaroli (o Arborio, ma il Carnaroli è preferito)</li>
+                        <li>1 bustina di zafferano (circa 0,1 g) o 3-4 pistilli di zafferano
+                        </li>
+                        <li>1 litro di brodo di carne caldo
+                        </li>
+                        <li>1 cipolla piccola (tritata finemente)
+                        </li>
+                        <li>50 g di burro
+                        </li>
+                        <li>50 g di midollo di bue (facoltativo, per una versione autentica)
+                        </li>
+                        <li>1 bicchiere di vino bianco secco</li>
+                        <li>80 g di parmigiano reggiano grattugiato</li>
+                        <li>Sale q.b.</li>
+                        <li>Pepe q.b.</li>
+                    </ul>
+                    <h3>Procedimento:</h3>
+                    <ol>
+                        <li>Preparare il brodo:
+                            <ul>
+                                <li>Tieni il brodo di carne caldo sul fuoco. Se usi i pistilli di zafferano, mettili in una tazzina con un mestolo di brodo caldo per farli rilasciare l’aroma.</li>
+                            </ul>
+                        </li>
+                        <li>Rosolare cipolla e midollo:
+                            <ul>
+                                <li>In una casseruola ampia, sciogli metà del burro a fuoco basso. Aggiungi il midollo di bue (se lo usi) e fallo sciogliere.</li>
+                                <li>Unisci la cipolla tritata e falla appassire lentamente, senza farla dorare.</li>
+                            </ul>
+                        </li>
+                        <li>Tostare il riso:
+                            <ul>
+                                <li>Aggiungi il riso nella casseruola e tostalo a fuoco medio per 2-3 minuti, mescolando spesso. Il riso dovrebbe diventare lucido.</li>
+                            </ul>
+                        </li>
+                        <li>Sfuma con il vino:
+                            <ul>
+                                <li>Versa il vino bianco e lascia evaporare l’alcol, mescolando continuamente.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Sfuma con il vino:
+                            <ul>
+                                <li>Aggiungi un mestolo di brodo caldo e mescola. Continua a cuocere il risotto per circa 15-18 minuti, aggiungendo brodo poco alla volta, solo quando il liquido precedente è stato assorbito.
+                                </li>
+                                <li>A metà cottura, aggiungi lo zafferano sciolto nel brodo (oppure la bustina in polvere).
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Cuocere il risotto:
+                            <ul>
+                                <li>Quando il riso è al dente e cremoso, spegni il fuoco. Aggiungi il burro rimanente e il parmigiano reggiano grattugiato.
+                                </li>
+                                <li>Mescola energicamente per mantecare il risotto, ottenendo una consistenza vellutata.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Servire:
+                            <ul>
+                                <li>Lascia riposare il risotto per 1 minuto, poi servilo caldo. Puoi decorare con qualche pistillo di zafferano per un tocco raffinato.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    Consigli:
+                    <ul>
+                        <li>Usa un riso di qualità, come Carnaroli o Vialone Nano, per un risultato cremoso e al dente.</li>
+                        <li>Il brodo è fondamentale per il sapore finale: se possibile, preparalo in casa con carne, ossa e verdure.</li>
+                        <li>La mantecatura è essenziale per ottenere la consistenza perfetta, quindi non saltare questo passaggio.</li>
+                    </ul>
+                    Buon appetito! 🥩</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Quali tipi di ricette posso trovare sul sito?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Puoi trovare ricette di ogni tipo: antipasti, primi piatti, secondi, dolci, e anche piatti vegetariani e vegani.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Le ricette sono adatte ai principianti?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Certamente! Le nostre ricette includono istruzioni dettagliate e sono perfette sia per principianti che per cuochi esperti.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Posso salvare le mie ricette preferite?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Sì! Registrandoti sul sito, puoi salvare le tue ricette preferite e accedervi facilmente in qualsiasi momento.</div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <div class="container-foot col-12 bg-white d-flex  justify-item-space-around">
+            <div class="row">
+                <div class="box col-2">
+               <img src="https://www.giallozafferano.it/style/images/logo-giallozafferano-small.svg" alt="logo-footer" height="75%" width="65%">
+                </div>
+                <div class="box col-2">
+                <h4>Seguici</h4>
+                <ul>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+                </ul>
+                </div>
+                <div class="box col-2">
+                <h4>Info</h4>
+                <ul>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Chi siamo</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Accedi</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Registrati</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Gruppo Mondadori</a></li>
+                </ul>  
+                </div>
+                <div class="box col-2">
+                <h4>Scopri</h4>
+                <ul>
+                    <li><a class="nav-link" class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Crea un blog</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">In edicola</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Shopping</a></li>
+                    <li><a class="nav-link" href="http://" target="_blank" rel="noopener noreferrer">Ultime ricette</a></li>
+                </ul>
+                </div>
+                <div class="box col-2">
+                <h4>Scarica l'app</h4>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <img src="https://www.giallozafferano.it/style/images/google-play.png" alt=""height="40vh" width="150vh">
+                </a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <img src="https://www.giallozafferano.it/style/images/apple-store.png" alt="" height="40vh" width="150vh">
+                </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
